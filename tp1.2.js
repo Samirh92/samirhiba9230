@@ -88,6 +88,19 @@ function calcul_moyenne()
     alert("Le Nombre Est Impaire")
     }
   }   
+  function swap()
+  {
+    var v3="";
+    a = document.getElementById("inputOne").value;
+    b = document.getElementById("inputTwo").value;
+    v3=a;
+    a=b;
+    b=v3;
+    inputOne.value=a;
+    inputTwo.value=b;
+
+
+  }
         
     
      
